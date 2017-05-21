@@ -5,6 +5,11 @@ This module provides a simple bluetooth API for Finggal bluetooth thermometers.
 > See [bluetooth-serial-port](https://www.npmjs.com/package/bluetooth-serial-port) for platform specific install dependencies. Testing has only been performed on Debian (Raspian), but it should work on all OS's that bluetooth-serial-port supports.
 
 ## Useage
+Install non-npm dependencies
+```bash
+apt-get install build-essential libbluetooth-dev
+```
+
 Install via npm 
 ```
 npm install --save finggal-thermometer
