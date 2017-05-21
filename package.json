@@ -1,0 +1,32 @@
+{
+  "name": "finggal-thermometer",
+  "version": "0.8.0",
+  "description": "Provides an interface for connecting to the Finggal Link IRSTP3 bluetooth thermometer",
+  "main": "example.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moppymopperson/finggal-thermometer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moppymopperson/finggal-thermometer/issues"
+  },
+  "homepage": "https://github.com/moppymopperson/finggal-thermometer#readme",
+  "keywords": [
+    "thermometer",
+    "bluetooth",
+    "finggal",
+    "IRSTP3"
+  ],
+  "author": "Erik Hornberger <hornbergererik@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluetooth-serial-port": "^2.1.2",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "sinon": "^2.2.0",
+    "winston": "^2.3.1"
+  }
+}
