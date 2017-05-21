@@ -1,6 +1,6 @@
 {
   "name": "finggal-thermometer",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Provides an interface for connecting to the Finggal Link IRSTP3 bluetooth thermometer",
   "main": "thermometer.js",
   "scripts": {
